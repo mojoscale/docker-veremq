@@ -3,12 +3,12 @@ entries:
   vernemq:
   - apiVersion: v1
     appVersion: 1.13.0
-    created: "2023-08-03T10:03:59.131005933-04:00"
+    created: "2023-08-03T10:16:03.118992945-04:00"
     description: VerneMQ is a high-performance, distributed MQTT message broker
-    digest: 9f5e0ad15d4e302bea9f6b10955114272ebfe6ce2a57a644d085144caf9c7d10
+    digest: 88ba36ec2ee3c03cb03f52ce03db2f3641a7b05c7017cc54880202b84da9b14c
     icon: http://www.stickpng.com/assets/thumbs/58482b21cef1014c0b5e4a24.png
     name: vernemq
     urls:
     - vernemq-1.9.0.tgz
     version: 1.9.0
-generated: "2023-08-03T10:03:59.128917794-04:00"
+generated: "2023-08-03T10:16:03.11694103-04:00"
