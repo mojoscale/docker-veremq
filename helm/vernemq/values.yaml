@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: rohit515000/vernemq
+  repository: mainflux/vernemq:latest
   tag: latest
 
   pullPolicy: IfNotPresent
