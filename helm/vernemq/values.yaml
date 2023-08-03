@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: vernemq/vernemq
+  repository: rohit515000/vernemq
   tag: 1.13.0-alpine
 
   pullPolicy: IfNotPresent
@@ -254,3 +254,12 @@ acl:
   annotations: {}
   content: |-
     topic #
+
+hooks:
+  enabled: true
+  on_publish:
+    url: "https://f372-2601-19b-67e-b370-c097-e0f2-5a26-cc75.ngrok-free.app/api/mqtt/publish/callback"
+    http_method: "POST"
+  on_subscribe:
+    url: "https://f372-2601-19b-67e-b370-c097-e0f2-5a26-cc75.ngrok-free.app/api/mqtt/subscribe/callback"
+    http_method: "POST"
